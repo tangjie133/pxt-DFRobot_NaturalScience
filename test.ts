@@ -2,7 +2,7 @@ NaturalScience.initDisplay()
 NaturalScience.setK(2.68)
 basic.forever(function () {
     NaturalScience.setLed(NaturalScience.STM32_LED_STATUS.ON)
-    NaturalScience.showUserNumber(0, NaturalScience.TemperatureNumber())
+    //NaturalScience.showUserNumber(0, NaturalScience.TemperatureNumber())
     NaturalScience.showUserText(1, NaturalScience.readBME280Data(NaturalScience.BME280Data.Pressure))
     NaturalScience.showUserText(2, NaturalScience.readBME280Data(NaturalScience.BME280Data.Temperature))
     NaturalScience.showUserText(3, NaturalScience.readBME280Data(NaturalScience.BME280Data.Humidity))

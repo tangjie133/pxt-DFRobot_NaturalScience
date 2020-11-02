@@ -568,28 +568,28 @@ namespace NaturalScience {
     }
 
 
-    //% shim=DS18B20::Temperature
-    export function Temperature(p: number): number {
-        // Fake function for simulator
-        return 0
-    }
+    // //% shim=DS18B20::Temperature
+    // export function Temperature(p: number): number {
+    //     // Fake function for simulator
+    //     return 0
+    // }
 
-    /**
-     * Get the water temperature 
-     */
-    //% weight=80 blockId="get temp" 
-    //% block="get tempN"
-    export function TemperatureNumber(): number {
-        // Fake function for simulator
-        let x;
-        let temp = Temperature(13);
-        if (temp > 12500) {
-            //temp = Temperature(13);
-            //basic.pause(1);
-            x = 0;
-        } else {
-            x = Math.round(temp / 100);
-        }
-        return x;
-    }
+    // /**
+    //  * Get the water temperature 
+    //  */
+    // //% weight=80 blockId="get temp" 
+    // //% block="get tempN"
+    // export function TemperatureNumber(): number {
+    //     // Fake function for simulator
+    //     let x;
+    //     let temp = Temperature(13);
+    //     if (temp > 12500) {
+    //         //temp = Temperature(13);
+    //         //basic.pause(1);
+    //         x = 0;
+    //     } else {
+    //         x = Math.round(temp / 100);
+    //     }
+    //     return x;
+    // }
 }
