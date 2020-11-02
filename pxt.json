@@ -1,0 +1,23 @@
+{
+    "name": "NaturalScience",
+    "version": "1.5.5",
+    "description": "",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "NaturalScience.ts",
+        "_locales/zh/NaturalScience-strings.json",
+        "ds18b20.cpp"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": false,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
